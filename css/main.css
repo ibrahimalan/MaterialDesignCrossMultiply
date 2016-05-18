@@ -1,0 +1,55 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    color: #212121;
+    background-color: #F1F1F1;
+    margin: 0 auto;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main
+{
+    flex: 1 0 auto;
+}
+
+footer
+{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+    font-size: 15px;
+    color: #212121;
+    padding-bottom: 10px;
+}
+
+#blue_bg
+{
+    z-index: 0;
+    position: fixed;
+    width: 100%;
+    height: 25%;
+    top: 0;
+    background-color: #607D8B;
+}
+
+#title
+{
+    font-size: 320%;
+    padding-bottom: 0;
+}
+
+#mainCard
+{
+    margin-top: 90px;
+}
+
+#x
+{
+    color: black;
+}
+
+
